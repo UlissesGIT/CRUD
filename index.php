@@ -15,7 +15,7 @@
 		<?php
 			// Verifica se existe a variável global SESSION
 			// Imprime a mensagem da variável global
-			// Em seguida apaga o valor da variável global
+			// Em seguida destroi o valor da variável global
 			if (isset($_SESSION['msg'])) {
 				echo $_SESSION['msg'];
 				unset($_SESSION['msg']);
