@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 	session_start();
 ?>
 
@@ -10,6 +9,8 @@
 		<title>CRUD - Cadastrar</title>
 	</head>
 	<body>
+		<a href="index.php"></a><br>
+		<a href="listar.php"></a><br>
 		<h1>Cadastrar Usuário</h1>
 		<?php
 			if (isset($_SESSION['msg'])) {
@@ -28,10 +29,4 @@
 		</form>
 	</body>
 </html>
-=======
 
-	echo "Olá Mundo 456!";
-	echo "Olá Udemy!";
-
-?>
->>>>>>> e0c6300161dc7d26672d8c0b9d727ca87902f1b2
