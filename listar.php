@@ -68,7 +68,6 @@
 			}
 			echo "<a href='listar.php?pagina=$qtde_pagina'> Ultima</a>";
 
-
 		?>
 	</body>
 </html>
