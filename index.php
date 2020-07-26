@@ -9,10 +9,13 @@
 		<title>CRUD - Cadastrar</title>
 	</head>
 	<body>
-		<a href="index.php"></a><br>
-		<a href="listar.php"></a><br>
+		<a href="index.php">Cadastrar</a><br>
+		<a href="listar.php">Listar</a><br>
 		<h1>Cadastrar Usuário</h1>
 		<?php
+			// Verifica se existe a variável global SESSION
+			// Imprime a mensagem da variável global
+			// Em seguida apaga o valor da variável global
 			if (isset($_SESSION['msg'])) {
 				echo $_SESSION['msg'];
 				unset($_SESSION['msg']);

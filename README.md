@@ -1,5 +1,5 @@
 # CRUD
-# Criação de CRUD em php com banco de dados MySQLI
+# Criação de CRUD em php com banco de dados MySQL
 #
 #
 #
